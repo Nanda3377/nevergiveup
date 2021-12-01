@@ -8,7 +8,7 @@ pipeline
       stpes
       {
         sh 'touch abc.txt'
-        sh 'echo $JAVA_HOME
+        sh 'echo $JAVA_HOME'
       }
     }  
   }    
