@@ -5,7 +5,7 @@ pipeline
   {
     stage ('executing commands')
     {
-      stpes
+      steps
       {
         sh 'touch abc.txt'
         sh 'echo $JAVA_HOME'
